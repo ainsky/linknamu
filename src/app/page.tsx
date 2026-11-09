@@ -4,9 +4,9 @@ import { profile, links } from '@/data/profile';
 
 export default function Home() {
   return (
-    <main className="max-w-[480px] mx-auto w-full px-4 py-14 flex flex-col items-center">
+    <main className="max-w-[460px] mx-auto w-full px-5 py-16 flex flex-col items-center">
       <ProfileCard profile={profile} />
-      <div className="w-full flex flex-col gap-[10px]">
+      <div className="w-full flex flex-col gap-3">
         {links.map((link) => (
           <LinkCard key={link.id} link={link} />
         ))}

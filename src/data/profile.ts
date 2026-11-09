@@ -1,9 +1,9 @@
 import type { LinkItem, Profile } from '@/lib/types';
 
 export const profile: Profile = {
-  name: '홍길동',           // TODO: 실제 이름으로 교체
-  bio: '풀스택 개발자 · 커피 없이는 못 살아요', // TODO: 실제 소개로 교체
-  // avatar: '/profile.jpg',  // TODO: public/ 폴더에 사진 추가 후 주석 해제
+  name: '최코딩',
+  bio: '풀스택 개발자 | 요즘에는 AI 개발에 관심이 많아요',
+  avatar: '/profile.jpg',
 };
 
 export const links: LinkItem[] = [

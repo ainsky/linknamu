@@ -37,9 +37,9 @@ export default function LinkCard({ link }: { link: LinkItem }) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
-      className="flex items-center gap-3.5 bg-[var(--surface)] border border-[var(--border)] rounded-[14px] px-[18px] py-3.5 text-[var(--fg)] no-underline shadow-[var(--shadow)] transition-all duration-150 hover:border-[var(--accent)] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 active:duration-[50ms]"
+      className="card-glass flex items-center gap-4 rounded-2xl px-5 py-[15px] text-[var(--fg)] no-underline transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[0_6px_28px_rgba(160,120,80,0.14),0_1px_4px_rgba(0,0,0,0.05)] active:translate-y-0 active:duration-[50ms]"
     >
-      <div className="w-10 h-10 rounded-[10px] bg-[var(--accent-soft)] flex items-center justify-center text-lg shrink-0">
+      <div className="w-10 h-10 rounded-xl bg-[var(--accent-soft)] flex items-center justify-center text-lg shrink-0">
         {link.icon}
       </div>
       <div className="flex-1 min-w-0 flex flex-col gap-0.5">
